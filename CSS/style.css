@@ -18,15 +18,24 @@ li {
 
 /* Write your code below */
 .header {
-  background-color: #26d0c9;
-    color: #fff;
-    height: 90px;
+  background-color: #F9448A;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 4rem; 
+}
+
+.header-container {
+  width: 65rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-  float: left;
-    font-size: 36px;
-    padding: 20px 40px;
+  width: 4rem
 }
 
 .link ul li {
@@ -34,38 +43,216 @@ li {
     padding: 33px 20px;
 }
 
+/* body */
 .banner {
-  padding: 100px 80px;
+  background-image: url('../Assets/illu-banner.png');
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+  height: 50rem;
 }
 
-.banner h1 {
-  font-size: 140px
-}
-.banner h1 span {
- color: #ff4a4a;
-}
-.banner h2 {
-  font-size: 60px;
+.banner figure {
+  display: flex;
+  text-align: center;
+  height: 50rem;
 }
 
-.lessons {
-  height: 500px;
-  margin-top: 100px;
+.banner figure h2 {
+  font-size: 4rem;
+  color: white;
+  position: absolute;
+  top: 40rem;
 }
 
-.lesson-header {
-  border-bottom: 2px solid #dee7ec;
-  font-size: 28px;
-  padding-bottom: 15px;
-  margin-bottom: 50px;
+.content-who {
+  background-color:  #F9448A;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.lesson-item {
-  float: left;
-  margin-right: 40px;
+.content-who article {
+  text-align: center;
+  width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.lesson-item p {
-  font-size: 24px;
-  margin-top: 30px;
+.content-who article h4 {
+  color: white;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.content-who article p {
+  color: white;
+}
+
+.content-how {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 25rem;
+}
+
+.content-how article {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 65rem;
+}
+
+.content-how article div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center ;
+  padding: 1rem;
+}
+
+.content-how article div p {
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.testimony {
+  background-color: #F1F1F1;
+  height: 29rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimony div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.testimony div article {
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33rem;
+}
+
+.testimony div article h2 {
+  margin-bottom: 2rem;
+}
+
+.testimony div article div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 30rem;
+}
+
+.testimony div article div p {
+  font-weight: 800;
+}
+
+.form {
+  background-image: url(../Assets/bg-form.png);
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form div {
+  width: 65rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form div article {
+  width: 26rem;
+}
+
+.form div div {
+  width: 26rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form div div h3{
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container div {
+  margin-bottom: .5rem;
+}
+
+.form-container div input {
+  width: 20rem;
+}
+
+.form-container div textarea {
+  width: 20rem;
+}
+
+.send-btn {
+  width: 20rem;
+  background-color: #F9448A;
+  border: none;
+  border-radius: 1.25rem;
+  padding: .75rem;
+  color: white;
+  font-weight: 900;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer article {
+  width: 65rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer article figure {
+  width: 25rem;
+}
+
+.footer article article {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: flex-start;
+}
+
+.social-mediav {
+  width: 25rm;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: flex-start;
 }
