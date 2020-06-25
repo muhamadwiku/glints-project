@@ -39,13 +39,8 @@ li {
 }
 
 .banner h1 {
-  font-size: 140px
-}
-.banner h1 span {
- color: #ff4a4a;
-}
-.banner h2 {
-  font-size: 60px;
+  text-align: center;
+  font-size: 32px;
 }
 
 .lessons {
