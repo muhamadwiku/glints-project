@@ -48,38 +48,99 @@ li {
   color: #fff;
   text-decoration: none;
 }
+
 .banner {
-  padding: 100px 80px;
+    background-image: url("../Assets/background 1.png");
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner h1 {
-  font-size: 140px
+    font-size: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 35rem;
+    position: absolute;
 }
-.banner h1 span {
- color: #ff4a4a;
-}
+
 .banner h2 {
-  font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 80px;
+    top: 40rem;
+    position: absolute;
+    width: 100%;
 }
 
 .lessons {
-  height: 500px;
-  margin-top: 100px;
+    background-color: #F9448A
 }
 
 .lesson-header {
-  border-bottom: 2px solid #dee7ec;
-  font-size: 28px;
-  padding-bottom: 15px;
-  margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 10rem;
+}
+
+.lesson-header h3 {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+.lesson-header p {
+   text-align: center;
+   color: white;
+}
+
+.section-one {
+    background-color: white;
+}
+
+.section-one h2 {
+    color: black;
+    padding-top: 27px;
+    font-size: 35px;
+    text-align: center;
+    padding-right: 264px;
+    padding-left: 270px;
+}
+
+.section-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width:100%
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60rem;
 }
 
 .lesson-item {
-  float: left;
-  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.lesson-item p {
-  font-size: 24px;
-  margin-top: 30px;
+.gambar2 {
+  width: 9rem;
+}
+
+.lesson-item div {
+  height: 10rem;
+
 }
