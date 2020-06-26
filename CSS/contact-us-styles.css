@@ -43,5 +43,78 @@ li {
 }
 
 .link ul li a{
+  color: #fff;
   text-decoration: none;
+}
+
+.footer {
+  border-top: 2px solid #dee7ec;
+  padding: 0 80px;
+  padding-top: 500px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  color: #000;
+}
+
+.flex-list {
+  display: flex;
+  
+}
+
+.flex-list li {
+  flex: auto;
+
+}
+
+.logo1 {
+  width: 6rem;
+}
+
+.footer-container1 p {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.footer-list {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-list h3 {
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+.footer-list li {
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+.sosmed {
+  text-align:center;
+}
+.sosmed h3 {
+  font-size: 18px;
+}
+
+.sosmed img {
+  padding: 5px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-bottom img {
+  float: left;
+  size: 10px;
+  padding-right: 3px;
+}
+.footer-bottom h3{
+  float: right;
+  font-size: 10px;
+  padding-top: 3px;
 }
