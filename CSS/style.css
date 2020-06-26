@@ -18,7 +18,7 @@ li {
 
 /* Write your code below */
 .header {
-  background-color: #26d0c9;
+  background-color: #F9448A;
     color: #fff;
     height: 90px;
 }
@@ -30,42 +30,79 @@ li {
 }
 
 .link ul li {
-    float: left;
+    float: right;
     padding: 33px 20px;
 }
 
-.banner {
-  padding: 100px 80px;
+.top {
+
 }
 
-.banner h1 {
-  font-size: 140px
+.banner {
+    background-image: url(file:///Users/chiarasyahdimar/Downloads/background%201.png);
+    height: 650px
 }
-.banner h1 span {
- color: #ff4a4a;
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 400px;
+    padding-left: 600px
+    padding-right: 600px;
 }
-.banner h2 {
-  font-size: 60px;
+
+h2 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 80px;
+    padding-left: 600px
+    padding-right: 600px;
 }
 
 .lessons {
-  height: 500px;
-  margin-top: 100px;
+    background-color: #F9448A
 }
 
-.lesson-header {
-  border-bottom: 2px solid #dee7ec;
-  font-size: 28px;
-  padding-bottom: 15px;
-  margin-bottom: 50px;
+.lesson-header h3 {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-right: 320px;
+    padding-left: 318px;
+    padding-bottom: 15px;
+}
+
+.lesson-header p {
+   text-align: center;
+   color: white;
+   padding-right: 500px;
+   padding-left: 450px;
+   padding-bottom: 30px;
+}
+
+.section-one {
+    background-color: white;
+}
+
+.section-one h2 {
+    color: black;
+    padding-top: 27px;
+    font-size: 35px;
+    text-align: center;
+    padding-right: 264px;
+    padding-left: 270px;
 }
 
 .lesson-item {
-  float: left;
-  margin-right: 40px;
+    float: left;
+    text-align: center;
+    padding: 30px;
 }
 
-.lesson-item p {
-  font-size: 24px;
-  margin-top: 30px;
+.section-two {
+    margin-right: 250px;
+    margin-left: 350px;
 }
+
