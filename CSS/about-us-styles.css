@@ -1,0 +1,48 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+  display: list-item;
+}
+
+.header {
+  background-color: #F9448A;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 4rem; 
+  position: fixed;
+}
+
+.header-container {
+  width: 65rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 4rem
+}
+
+.link ul li {
+    float: left;
+    padding: 33px 20px;
+}
+
+.link ul li a{
+  color: #fff;
+  text-decoration: none;
+}

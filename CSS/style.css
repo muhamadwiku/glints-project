@@ -19,67 +19,86 @@ li {
 /* Write your code below */
 .header {
   background-color: #F9448A;
-    color: #fff;
-    height: 90px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 4rem; 
+  position: fixed;
+}
+
+.header-container {
+  width: 65rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-  float: left;
-    font-size: 36px;
-    padding: 20px 40px;
+  width: 4rem
 }
 
 .link ul li {
-    float: right;
-    padding: 33px 20px;
+    float: left;
+    padding: 2rem 1.25rem;
 }
 
-.top {
-
+.link ul li a{
+  color: #fff;
+  text-decoration: none;
 }
 
 .banner {
-    background-image: url(file:///Users/chiarasyahdimar/Downloads/background%201.png);
-    height: 650px
+    background-image: url("../Assets/background 1.png");
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-h1 {
+.banner h1 {
     font-size: 80px;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 400px;
-    padding-left: 600px
-    padding-right: 600px;
+    top: 35rem;
+    position: absolute;
 }
 
-h2 {
+.banner h2 {
     text-align: center;
     color: #FFFFFF;
     font-size: 80px;
-    padding-left: 600px
-    padding-right: 600px;
+    top: 40rem;
+    position: absolute;
+    width: 100%;
 }
 
 .lessons {
     background-color: #F9448A
 }
 
+.lesson-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 10rem;
+}
+
 .lesson-header h3 {
     font-size: 35px;
     text-align: center;
     color: white;
-    padding-top: 40px;
-    padding-right: 320px;
-    padding-left: 318px;
-    padding-bottom: 15px;
 }
 
 .lesson-header p {
    text-align: center;
    color: white;
-   padding-right: 500px;
-   padding-left: 450px;
-   padding-bottom: 30px;
 }
 
 .section-one {
@@ -95,14 +114,33 @@ h2 {
     padding-left: 270px;
 }
 
-.lesson-item {
-    float: left;
-    text-align: center;
-    padding: 30px;
-}
-
 .section-two {
-    margin-right: 250px;
-    margin-left: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width:100%
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60rem;
+}
+
+.lesson-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.gambar2 {
+  width: 9rem;
+}
+
+.lesson-item div {
+  height: 10rem;
+
+}
