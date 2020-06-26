@@ -26,6 +26,7 @@ li {
   width: 100%;
   height: 4rem; 
   position: fixed;
+  z-index: 10;
 }
 
 .header-container {
@@ -48,38 +49,237 @@ li {
   color: #fff;
   text-decoration: none;
 }
+
 .banner {
-  padding: 100px 80px;
+    background-image: url("../Assets/background 1.png");
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner h1 {
-  font-size: 140px
+    font-size: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 35rem;
+    position: absolute;
 }
-.banner h1 span {
- color: #ff4a4a;
-}
+
 .banner h2 {
-  font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 80px;
+    top: 40rem;
+    position: absolute;
+    width: 100%;
 }
 
 .lessons {
-  height: 500px;
-  margin-top: 100px;
+    background-color: #F9448A
 }
 
 .lesson-header {
-  border-bottom: 2px solid #dee7ec;
-  font-size: 28px;
-  padding-bottom: 15px;
-  margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 10rem;
+}
+
+.lesson-header h3 {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+.lesson-header p {
+   text-align: center;
+   color: white;
+}
+
+.section-one {
+    background-color: white;
+}
+
+.section-one h2 {
+    color: black;
+    padding-top: 27px;
+    font-size: 35px;
+    text-align: center;
+    padding-right: 264px;
+    padding-left: 270px;
+}
+
+.section-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width:100%
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60rem;
 }
 
 .lesson-item {
-  float: left;
-  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.lesson-item p {
-  font-size: 24px;
+.gambar2 {
+  width: 9rem;
+}
+
+.lesson-item div {
+  height: 10rem;
+
+}
+
+
+.contact-wrapper{
+  background-image: url("../Assets/top-view-photo-of-people-near-wooden-table-3183150 1.png");
+  background-size: cover;
+  width : 100%;
+  overflow: hidden;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.contact-container{
+  display: flex;
+  align-items :center;
+  justify-content: space-evenly;
+  width : 100rem;
+}
+
+.contact-info {
+  padding-left: 20px;
+}
+
+.contact-message{
+  font-size : 28px;
+  text-decoration: underline;
+  text-align: center;
+  width : 30rem;
+}
+
+input {
+  width : 25rem;
+  margin-top : 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size : 18px;
+  border: 1px solid #dee7ec;
+}
+
+textarea {
+  width : 25rem;
+  margin-top : 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size : 18px;
+  border: 1px solid #dee7ec;
+}
+
+.section-title {
+  font-size : 35px;
+  width : 21rem
+}
+
+.contact-submit{
+  color : white;
+  border-radius: 20px;
+  width : 50%;
+  padding: 12px 12px;
+  display: inline-block;
+  opacity: 0.8;
+  background-color: #F9448A;
+}
+
+.footer {
+  background-color: #fff;
+  color: #000;
+  border-top: 2px solid #dee7ec;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-list {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 60rem;
+}
+
+.flex-list li {
+  flex: auto;
+}
+
+.logo1 {
+  width: 6rem;
+}
+
+.footer-container1 p {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.footer-list {
+  text-align: center;
+}
+
+.footer-list h3 {
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+.footer-list li {
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+.sosmed {
+  text-align:center;
+}
+.sosmed h3 {
+  font-size: 18px;
+}
+
+.sosmed img {
+  padding: 5px;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-bottom img {
+  float: left;
+  size: 10px;
+  padding-right: 3px;
+}
+.footer-bottom h3{
+  float: right;
+  font-size: 10px;
+  padding-top: 3px;
 }
