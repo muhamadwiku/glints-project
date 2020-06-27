@@ -48,23 +48,80 @@ li {
   text-decoration: none;
 }
 
+
+.contents {
+  padding-top: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 78vh;
+  flex-direction: column;
+}
+
+.contents article {
+  text-align: center;
+}
+
+.contents article h2{
+  margin: 1rem;
+}
+
+.contents figure {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 65rem;
+  height: 20rem;
+}
+
+.contents figure div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contents figure div img {
+  width: 5rem;
+}
+
+.contents div div img {
+  height: 5rem;
+}
+
+.flaticon {
+  padding: 1rem;
+  background-color: black;
+  width: 5rem;
+}
+
+.images-group {
+  width: 50rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .footer {
-  border-top: 2px solid #dee7ec;
-  padding: 0 80px;
-  padding-top: 500px;
-  padding-bottom: 30px;
   background-color: #fff;
   color: #000;
+  border-top: 2px solid #dee7ec;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .flex-list {
+  align-items: center;
   display: flex;
-  
+  justify-content: space-around;
+  width: 60rem;
 }
 
 .flex-list li {
   flex: auto;
-
 }
 
 .logo1 {

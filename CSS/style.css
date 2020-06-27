@@ -59,6 +59,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-attachment: fixed;
 }
 
 .banner h1 {
@@ -158,7 +159,7 @@ li {
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 30px;
-
+  background-attachment: fixed;
 }
 
 .contact-container{
@@ -177,6 +178,20 @@ li {
   text-decoration: underline;
   text-align: center;
   width : 30rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-form form div{
+  display: flex;
+  flex-direction: column;
 }
 
 input {
@@ -202,16 +217,41 @@ textarea {
   width : 21rem
 }
 
-.contact-submit{
-  color : white;
-  border-radius: 20px;
-  width : 50%;
-  padding: 12px 12px;
-  display: inline-block;
-  opacity: 0.8;
-  background-color: #F9448A;
+
+button {
+  background-color: transparent;
+  border: none;
 }
 
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+
+.btn:hover {
+  opacity: 1;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color:#F9448A;
+  cursor: pointer;
+  box-shadow: 0 7px #B80056;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 1rem;
+  width: 12rem;
+}
+
+/* footer */
 .footer {
   background-color: #fff;
   color: #000;
