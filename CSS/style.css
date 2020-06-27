@@ -112,8 +112,6 @@ li {
     padding-top: 27px;
     font-size: 35px;
     text-align: center;
-    padding-right: 264px;
-    padding-left: 270px;
 }
 
 .section-two {
@@ -323,3 +321,204 @@ footer {
   font-size: 10px;
   padding-top: 3px;
 }
+
+@media only screen and (max-width: 1060px) {
+  .banner {
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 25rem;
+    position: absolute;
+  }
+
+  .banner h2 {
+      text-align: center;
+      color: #FFFFFF;
+      font-size: 60px;
+      top: 30rem;
+      position: absolute;
+      width: 100%;
+  }
+}
+
+
+
+@media only screen and (max-width: 776px) {
+  .banner {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 20rem;
+    position: absolute;
+  }
+
+  .banner h2 {
+      text-align: center;
+      color: #FFFFFF;
+      font-size: 40px;
+      top: 23rem;
+      position: absolute;
+      width: 100%;
+  }
+
+  .lesson-header {
+    height: 15rem;
+}
+
+
+  .section-one h2 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .section-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width:100%
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60rem;
+  }
+
+    .lesson-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+    }
+
+  .contact-container{
+    display: flex;
+    align-items :center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .contact-info {
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-h2 {
+    font-size: 1.25rem;
+    font-weight: bolder;
+  }
+
+  .flex-list {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50rem;
+  }
+
+  .flex-list li {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+
+
+
+
+
+@media only screen and (max-width: 417px) {
+  .banner {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner h1 {
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 20rem;
+    position: absolute;
+  }
+
+  .banner h2 {
+      text-align: center;
+      color: #FFFFFF;
+      font-size: 30px;
+      top: 23rem;
+      position: absolute;
+      width: 100%;
+  }
+
+  .contact-container{
+    display: flex;
+    align-items :center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30rem;
+  }
+
+  .contact-info {
+    margin-bottom: 1rem;
+    width: 20rem;
+    text-align: center;
+  }
+  .contact-info p {
+    font-size: 1.25rem;
+    width: 100%;
+  }
+
+
+  .contact-form h2 {
+    margin-bottom: 1rem;
+  }
+
+  .contact-form form {
+    width: 18rem;
+  }
+
+  input {
+    width : 100%;
+    font-size : 18px;
+    border: 1px solid #dee7ec;
+  }
+
+  textarea {
+    width : 100%;
+    font-size : 18px;
+    border: 1px solid #dee7ec;
+  }
+
+  .flex-list {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30rem;
+  }
+
+  .flex-list li{
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+
+
